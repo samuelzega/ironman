@@ -1,0 +1,20 @@
+@media (min-width: 576px) {
+    .image {
+        width: 80vw;
+        height: 30vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .image {
+        width: 40vw;
+        height: 30vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .image {
+        width: 25vw;
+        height: 30vh;
+    }
+}

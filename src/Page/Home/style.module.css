@@ -1,0 +1,28 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+}
+.title{
+    margin-top: 15vh;
+}
+.image{
+    height: 10vh;
+    margin-top: 5vh;
+}
+.inside{
+    text-align: -webkit-center;
+}
+.linkBox{
+    display: grid;
+    margin-top: 15vh;
+}
+
+.link{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    margin-bottom: 20px;
+}
