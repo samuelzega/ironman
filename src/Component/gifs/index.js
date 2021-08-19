@@ -17,18 +17,18 @@ export default function gifCards({ data }) {
                         xl={8}
                     >
                         <Image
-                            placeholder={
-                                <Image
-                                    preview={false}
-                                    style={{
-                                        width: '25vw',
-                                        height: '20vw',
-                                        backgroundColor: 'grey',
-                                    }}
-                                    src={element.images.preview_gif.url}
-                                    width={200}
-                                />
-                            }
+                            // placeholder={
+                            //     <Image
+                            //         preview={false}
+                            //         style={{
+                            //             width: '25vw',
+                            //             height: '20vw',
+                            //             backgroundColor: 'grey',
+                            //         }}
+                            //         src={element.images.preview_gif.url}
+                            //         width={200}
+                            //     />
+                            // }
                             className={styles.image}
                             src={element.images.original.url}
                         />
