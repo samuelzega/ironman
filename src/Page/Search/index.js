@@ -1,23 +1,12 @@
-import React, { useState, useEffect } from 'react'
-import {
-    Typography,
-    Row,
-    Col,
-    Card,
-    Input,
-    Button,
-    TypographyProps,
-} from 'antd'
+import React, { useState } from 'react'
+import { Typography, Row, Col, Input } from 'antd'
 import styles from './style.module.css'
 import searchApi from '../../Api/search'
 import { Gifs } from '../../Component'
 
 export default function Search() {
     const [allData, setAllData] = useState([])
-    // const [searchValue, setSearchValue] = useState('')
-    // useEffect(() => {
-    //     search()
-    // }, [])
+
     const search = async (keyword) => {
         if (!keyword || keyword.length < 3) {
             return
